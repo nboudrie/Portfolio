@@ -62,7 +62,7 @@ img{
 .grid-item{
     text-align: center;
     font-size: 14px;
-    padding: 10px;
+    padding-top: 5px;
 }
 
 #playerImg{
@@ -140,3 +140,34 @@ img{
     justify-self: right;
 }
 
+.nav_item a:hover, a:focus{
+    color: yellow;
+    text-decoration: underline;
+}
+
+
+@-webkit-keyframes ball_fly{
+    from { width: 10px;
+        transform: translateX(0%); }
+    to { width: 300px;
+        transform: translateX(100%); }
+}
+
+@keyframes ball_fly{
+    from { width: 10px;
+        transform: translateX(0%); }
+    to { width: 300px;
+        transform: translateX(100%); }
+
+}
+
+#football{
+    animation-name: ball_fly;
+    animation-duration: 10s;  
+}
+
+@media (prefers-reduced-motion: reduce) {
+    #football{
+        animation: none;
+    }
+}
