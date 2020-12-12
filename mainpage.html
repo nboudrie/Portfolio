@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-185382020-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-185382020-1');
+        </script>
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -9,31 +19,71 @@
         <title>Green Bay Packers Reporting</title>
     </head>
     <body>
-        <nav>
-            <ul class="nav_links">
-                <li class="nav_item"><a href="mainpage.html">Home</a></li>
-                <li class="nav_item"><a href="season.html">Season</a></li>
-                <li class="nav_item"><a href="players.html">Players</a></li>
-                <li class="nav_item"><a href="history.html">History</a></li>
-            </ul>
-        </nav>
+        <div id="page-container">
+            <nav>
+                <ul class="nav_links">
+                    <li class="nav_item"><a class="current" href="mainpage.html">Home</a></li>
+                    <li class="nav_item"><a href="season.html">Season</a></li>
+                    <li class="nav_item"><a href="players.html">Players</a></li>
+                    <li class="nav_item"><a href="history.html">History</a></li>
+                </ul>
+            </nav>
 
-        <main class="headlines">
+            <main class="headlines">
 
-            <header>
-                <h1>Packers Reporting</h1>
-                <p>Bringing the best coverage and information in sports!</p>
-            </header>
+                <header>
+                    <h1>Packers Reporting</h1>
+                    <p>Bringing the best coverage and information in sports!</p>
+                </header>
 
-        </main>
-        
-        <img id="lambeau" src="mainpageImages/lambeau.png" alt = "" />
+            
 
-        <img id="football" src="mainpageImages/football.jfif" alt = ""/>
+                <div class="pictures">
+                    <img id="lambeau" src="mainpageImages/lambeau.png" alt = "" />
+                    <img id="football" src="mainpageImages/football.jfif" alt = ""/>
+                </div>
 
-        <footer>
-            <p> University of Michigan School of Information <br/>
-            Noah Boudrie, Student of SI 339</p>
-        </footer>
+                <div class="trophies">
+                    <div class="championships">
+                        <img class="lombardiTrophy" src="mainpageImages/lombardiTrophy.png" alt=""/>
+                        <h1>#1</h1>
+                    </div>
+                    <div class="championships">
+                        <img class="lombardiTrophy" src="mainpageImages/lombardiTrophy.png" alt=""/>
+                        <h1>#2</h1>
+                    </div>
+                    <div class="championships">
+                        <img class="lombardiTrophy" src="mainpageImages/lombardiTrophy.png" alt=""/>
+                        <h1>#3</h1>
+                    </div>
+                    <div class="championships">
+                        <img class="lombardiTrophy" src="mainpageImages/lombardiTrophy.png" alt=""/>
+                        <h1>#4</h1>
+                    </div>
+                </div>
+
+                <div class="form">
+                    <h1>Contact me here:</h1>
+                    <p>I always appreciate the feedback!</p>
+                    <form action="https://formspree.io/f/xgepnllg" method="POST">
+                        <label>
+                            Your email:
+                            <input type="email" name="email">
+                        </label>
+                        <br>
+                        <label>
+                            Your message:
+                            <textarea name="message"></textarea>
+                        </label>
+                        <br>
+                        <button type="submit">Send!</button>
+                    </form>
+                </div>
+            </main>
+            <footer>
+                <p> University of Michigan School of Information <br/>
+                Noah Boudrie, Student of SI 339</p>
+            </footer>
+        </div>
     </body>
 </html>

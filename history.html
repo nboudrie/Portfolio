@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-185382020-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-185382020-1');
+        </script>
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -9,61 +19,64 @@
         <title>History</title>
     </head>
     <body>
-        <nav>
-            <ul class="nav_links">
-                <li class="nav_item"><a href="mainpage.html">Home</a></li>
-                <li class="nav_item"><a href="season.html">Season</a></li>
-                <li class="nav_item"><a href="players.html">Players</a></li>
-                <li class="nav_item"><a href="history.html">History</a></li>
-            </ul>
-        </nav>
+        <div id="page-container">
+            <div id="content-wrap">
+                <nav>
+                    <ul class="nav_links">
+                        <li class="nav_item"><a href="mainpage.html">Home</a></li>
+                        <li class="nav_item"><a href="season.html">Season</a></li>
+                        <li class="nav_item"><a href="players.html">Players</a></li>
+                        <li class="nav_item"><a class="current" href="history.html">History</a></li>
+                    </ul>
+                </nav>
 
-        <main class="headlines">
+                <main class="headlines">
 
-            <header>
-                <h1>History</h1>
-                <p>Take a look at some of the most iconic moments in Football History</p>
-            </header>
+                    <header>
+                        <h1 class="center">History</h1>
+                        <p class="center">Take a look at some of the most iconic moments in Football History</p>
+                    </header>
 
-        </main>
+                
 
-        <div class="history">
-            <h1 class="odd">First Two Super Bowls</h1>
-            <div class="history-item">
-                <img id="historyImg" src="historyImages/firstSB.jfif" alt="">
-                <p>The Packers won the first two Super Bowls in the NFL</p>
+                    <div class="history">
+                        <h1 class="odd">First Two Super Bowls</h1>
+                        <div class="history-item">
+                            <img class="historyImg" src="historyImages/firstSB.jfif" alt="">
+                            <p>The Packers won the first two Super Bowls in the NFL</p>
+                        </div>
+                        <h1 class="even">Ice Bowl</h1>
+                        <div class="history-item">
+                            <p>On New Years Eve in 1967, the NFL Championship was won by the Packers in one of the coldest games of all time. Temps reached 13 below zero</p>
+                            <img class="historyImgRight" src="historyImages/iceBowl.jfif" alt="">
+                        </div>
+                        <h1 class="odd">Third Super Bowl Win</h1>
+                        <div class="history-item">
+                            <img class="historyImg" src="historyImages/thirdSB.jpg" alt="">
+                            <p>Farve was able to lead the Packers to their third Super Bowl in 1997</p>
+                        </div>
+                        <h1 class="even">Fourth Super Bowl Win</h1>
+                        <div class="history-item">
+                            <p>At the end of the 2010 season, the six seed Packers emergeed victorius against the historic Steelers</p>
+                            <img class="historyImgRight" src="historyImages/superbowl4.jfif" alt="">
+                        </div>
+                        <h1 class="odd">Lambeau Leap</h1>
+                        <div class="history-item">
+                            <img class="historyImg" src="historyImages/firstLeap.jpg" alt="">
+                            <p>The Lambeau leap is an iconic celebration now. It all began with LeRoy Butler on December 26, 1993</p>
+                        </div>
+                        <h1 class="even">Two GOATS</h1>
+                        <div class="history-item">
+                            <p>Enough said.</p>
+                            <img class="historyImgRight" src="historyImages/goats.png" alt="">
+                        </div>
+                    </div>
+                </main>
             </div>
-            <h1 class="even">Ice Bowl</h1>
-            <div class="history-item">
-                <p>On New Years Eve in 1967, the NFL Championship was won by the Packers in one of the coldest games of all time. Temps reached 13 below zero</p>
-                <img id="historyImgRight" src="historyImages/iceBowl.jfif" alt="">
-            </div>
-            <h1 class="odd">Third Super Bowl Win</h1>
-            <div class="history-item">
-                <img id="historyImg" src="historyImages/thirdSB.jpg" alt="">
-                <p>Farve was able to lead the Packers to their third Super Bowl in 1997</p>
-            </div>
-            <h1 class="even">Fourth Super Bowl Win</h1>
-            <div class="history-item">
-                <p>At the end of the 2010 season, the six seed Packers emergeed victorius against the historic Steelers</p>
-                <img id="historyImgRight" src="historyImages/superbowl4.jfif" alt="">
-            </div>
-            <h1 class="odd">Lambeau Leap</h1>
-            <div class="history-item">
-                <img id="historyImg" src="historyImages/firstLeap.jpg" alt="">
-                <p>The Lambeau leap is an iconic celebration now. It all began with LeRoy Butler on December 26, 1993</p>
-            </div>
-            <h1 class="even">Two GOATS</h1>
-            <div class="history-item">
-                <p>Enough said.</p>
-                <img id="historyImgRight" src="historyImages/goats.png" alt="">
-            </div>
+            <footer>
+                <p> University of Michigan School of Information <br/>
+                Noah Boudrie, Student of SI 339</p>
+            </footer>
         </div>
-        
-
-        <footer>
-            <p> University of Michigan School of Information <br/>
-            Noah Boudrie, Student of SI 339</p>
-        </footer>
     </body>
 </html>

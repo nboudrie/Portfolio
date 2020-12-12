@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-185382020-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-185382020-1');
+        </script>
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -9,91 +19,95 @@
         <title>2020 Season</title>
     </head>
     <body>
-        <nav>
-            <ul class="nav_links">
-                <li class="nav_item"><a href="mainpage.html">Home</a></li>
-                <li class="nav_item"><a href="season.html">Season</a></li>
-                <li class="nav_item"><a href="players.html">Players</a></li>
-                <li class="nav_item"><a href="history.html">History</a></li>
-            </ul>
-        </nav>
+        <div id="page-container">
+            <div id="content-wrap">
+                <nav>
+                    <ul class="nav_links">
+                        <li class="nav_item"><a href="mainpage.html">Home</a></li>
+                        <li class="nav_item"><a class="current" href="season.html">Season</a></li>
+                        <li class="nav_item"><a href="players.html">Players</a></li>
+                        <li class="nav_item"><a href="history.html">History</a></li>
+                    </ul>
+                </nav>
 
-        <main class="headlines">
+                <main class="headlines">
 
-            <header>
-                <h1>2020 Season</h1>
-                <p>Catch the scoop on this years schedule</p>
-            </header>
+                    <header>
+                        <h1>2020 Season</h1>
+                        <p>Catch the scoop on this years schedule</p>
+                    </header>
 
-        </main>
+                
 
-        <div class="flex-game-container">
-            <h1 class="team-name">Vikings</h1>
-            <p class="score">43-34   W</p>
-            <div class="game-item">
-                <img id="gameImg" src="seasonImages/week1.jpeg" alt="">
-                <p>What a way to start the season!</p>
+                    <div class="flex-game-container">
+                        <h1 class="team-name">Vikings</h1>
+                        <p class="score">43-34   W</p>
+                        <div class="game-item">
+                            <img class="gameImg" src="seasonImages/week1.jpeg" alt="">
+                            <p>What a way to start the season!</p>
+                        </div>
+                        <h1 class="team-name">Lions</h1>
+                        <p class="score">42-21  W</p>
+                        <div class="game-item">
+                            <img class="gameImg" src="seasonImages/week2.webp" alt="">
+                            <p>Exciting victory against the rival Lions</p>
+                        </div>
+                        
+                        <h1 class="team-name">Saints</h1>
+                        <p class="score">37-30  W</p>
+                        <div class="game-item">
+                            <img class="gameImg" src="seasonImages/week3.jfif" alt="">
+                            <p>Scary game against one of the best teams in the NFC</p>
+                        </div>
+                        <h1 class="team-name">Falcons</h1>
+                        <p class="score">30-16  W</p>
+                        <div class="game-item">
+                            <img class="gameImg" src="seasonImages/week4.webp" alt="">
+                            <p>Much easier game than the final score indicates </p>
+                        </div>
+                        
+                        <h1 class="team-name">Buccaneers</h1>
+                        <p class="score">10-38  L</p>
+                        <div class="game-item">
+                            <img class="gameImg" src="seasonImages/week6.jpg" alt="">
+                            <p>With the return of Adams the offense studdered and Rodgers had one of his worst games ever</p>
+                        </div>
+                        
+                        <h1 class="team-name">Texans</h1>
+                        <p class="score">35-20  W</p>
+                        <div class="game-item">
+                            <img class="gameImg" src="seasonImages/week 7.jpg" alt="">
+                            <p>A nice bounce back agaisnt a struggling squad</p>
+                        </div>
+                        
+                        <h1 class="team-name">Vikings</h1>
+                        <p class="score">22-28 L</p>
+                        <div class="game-item">
+                            <img class="gameImg" src="seasonImages/week8.jpg" alt="">
+                            <p>Dalvin Cook = Unstoppable! Get em next time</p>
+                        </div>
+                        
+                        <h1 class="team-name">49ers</h1>
+                        <p class="score">34-17</p>
+                        <div class="game-item">
+                            <img class="gameImg" src="seasonImages/week9.jpeg" alt="">
+                            <p>A cathartic win after all the losses we have had to this team in the past</p>
+                        </div>
+                        
+                        <h1 class="team-name">Jaguars</h1>
+                        <p class="score">24-20</p>
+                        <div class="game-item">
+                            <img class="gameImg" src="seasonImages/week10.jpg" alt="">
+                            <p>Is this team able to go all the way? Not sure after a near loss to one of the 5 worst teams in the league</p>
+                        </div>
+                        
+                    </div>
+                </main>
             </div>
-            <h1 class="team-name">Lions</h1>
-            <p class="score">42-21  W</p>
-            <div class="game-item">
-                <img id="gameImg" src="seasonImages/week2.webp" alt="">
-                <p>Exciting victory against the rival Lions</p>
-            </div>
-            
-            <h1 class="team-name">Saints</h1>
-            <p class="score">37-30  W</p>
-            <div class="game-item">
-                <img id="gameImg" src="seasonImages/week3.jfif" alt="">
-                <p>Scary game against one of the best teams in the NFC</p>
-            </div>
-            <h1 class="team-name">Falcons</h1>
-            <p class="score">30-16  W</p>
-            <div class="game-item">
-                <img id="gameImg" src="seasonImages/week4.webp" alt="">
-                <p>Much easier game than the final score indicates </p>
-            </div>
-            
-            <h1 class="team-name">Buccaneers</h1>
-            <p class="score">10-38  L</p>
-            <div class="game-item">
-                <img id="gameImg" src="seasonImages/week6.jpg" alt="">
-                <p>With the return of Adams the offense studdered and Rodgers had one of his worst games ever</p>
-            </div>
-            
-            <h1 class="team-name">Texans</h1>
-            <p class="score">35-20  W</p>
-            <div class="game-item">
-                <img id="gameImg" src="seasonImages/week 7.jpg" alt="">
-                <p>A nice bounce back agaisnt a struggling squad</p>
-            </div>
-            
-            <h1 class="team-name">Vikings</h1>
-            <p class="score">22-28 L</p>
-            <div class="game-item">
-                <img id="gameImg" src="seasonImages/week8.jpg" alt="">
-                <p>Dalvin Cook = Unstoppable! Get em next time</p>
-            </div>
-            
-            <h1 class="team-name">49ers</h1>
-            <p class="score">34-17</p>
-            <div class="game-item">
-                <img id="gameImg" src="seasonImages/week9.jpeg" alt="">
-                <p>A cathartic win after all the losses we have had to this team in the past</p>
-            </div>
-            
-            <h1 class="team-name">Jaguars</h1>
-            <p class="score">24-20</p>
-            <div class="game-item">
-                <img id="gameImg" src="seasonImages/week10.jpg" alt="">
-                <p>Is this team able to go all the way? Not sure after a near loss to one of the 5 worst teams in the league</p>
-            </div>
-            
+            <footer>
+                <p> University of Michigan School of Information <br/>
+                Noah Boudrie, Student of SI 339</p>
+            </footer>
         </div>
-
-        <footer>
-            <p> University of Michigan School of Information <br/>
-            Noah Boudrie, Student of SI 339</p>
-        </footer>
     </body>
 </html>
